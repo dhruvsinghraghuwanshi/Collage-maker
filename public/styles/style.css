@@ -37,7 +37,7 @@ html,body{
     font-size: 1.2vw;
 }
 
-.nav button{
+ button{
     background-color: #31363F;
     color: #EEEEEE;
     margin-left: .2vw;
@@ -61,8 +61,7 @@ html,body{
 .box{
     border: 1px solid #eeeeee3c;
     text-align: center;
-    padding: 3.5vw 3vw;
-    margin-bottom: 1.5vw;
+    padding: 4vw 3vw;
     border-radius: 10px;
     
 }
@@ -72,21 +71,8 @@ html,body{
     margin-bottom: 1.3vw;
 }
 
-.box button{
-    background-color: #31363F;
-    color: #EEEEEE;
-    margin-left: .2vw;
-    border: none;
-    padding: .5vw 1vw;
-    border-radius: 10px;
-}
-
 .right{
     width: 80%;
     height: 100%;
     padding: 0vw 2vw;
-}
-
-.right h2{
-    font-size: 1.1vw;
 }
