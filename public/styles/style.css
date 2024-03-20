@@ -1,4 +1,78 @@
-body{
-    background-color: black;
-    color: white;
+@font-face {
+    font-family: font;
+    src: url(/matter-light.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    color: #EEEEEE;
+    font-family: font;
+}
+
+.main{
+    padding: 1vw 3vw;
+    height: 100vh;
+    width: 100%;
+    background-color: #222831;
+
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .8vw 2vw ;
+    width: 100%;
+    border-bottom: 1px solid #eeeeee3c;
+}
+
+.nav h2{
+    font-size: 1.2vw;
+}
+
+ button{
+    background-color: #31363F;
+    color: #EEEEEE;
+    margin-left: .2vw;
+    border: none;
+    padding: .5vw 1vw;
+    border-radius: 10px;
+}
+
+.container{
+    height: 90%;
+    width: 100%;
+    padding: 1.5vw;
+    display: flex;
+}
+
+.left{
+    width: 20%;
+    height: 100%;
+}
+
+.box{
+    border: 1px solid #eeeeee3c;
+    text-align: center;
+    padding: 4vw 3vw;
+    border-radius: 10px;
+    
+}
+
+.box h2{
+    font-size: 1vw;
+    margin-bottom: 1.3vw;
+}
+
+.right{
+    width: 80%;
+    height: 100%;
+    padding: 0vw 2vw;
 }
