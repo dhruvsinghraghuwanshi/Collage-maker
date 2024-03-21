@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @font-face {
     font-family: font;
     src: url(/matter-light.woff2);
@@ -38,7 +37,11 @@ html,body{
     font-size: 1.2vw;
 }
 
- button{
+.btn {
+    display: none;
+}
+
+.button{
     background-color: #31363F;
     color: #EEEEEE;
     margin-left: .2vw;
@@ -76,39 +79,13 @@ html,body{
     width: 80%;
     height: 100%;
     padding: 0vw 2vw;
+    display: flexbox;
+    overflow:scroll;
 }
-=======
-body{
-    background-color: #11111b;
-    color: white;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px, 0px 0px ;
-}
-.outer-most{
-    height: 100%;
-    width: 100%;
-    background-color: #1e1e2e;
-    border-radius: 0.5%;
+.imgArea{
     position: absolute;
+    z-index: 100;
+    height: 50%;
+    width: 50%;
+    background-color: bisque;
 }
-.left-panel{
-    height: 100%;
-    width: 20%;
-    background-color: #313244;
-    position: absolute;
-    float: left;
-}
-.panel-text{
-    width: 91%;
-    height: 10%;
-    margin: 3%;
-    border-radius: 7px;
-    background-color: #45475a;
-}
-.text{
-    padding-top: 7%;
-    padding-left: 17%;
-    font-size: 35px;
-    color: #cdd6f4;
-}
->>>>>>> 250c3c7 (Some css)

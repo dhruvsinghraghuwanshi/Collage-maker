@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,8 +12,10 @@
             <div class="nav">
                 <h2>Collage Maker</h2>
                 <div class="button">
-                    <button>Save</button>
-                    <button><i class="fa-solid fa-angle-down"></i></button>
+                    <label for="save">Save</label>
+                    <button class="btn"  id="save">Save</button>
+                    <label for="dropdown"><i class="fa-solid fa-angle-down"></i></label>
+                    <button id="dropdown" class="btn"><i class="fa-solid fa-angle-down"></i></button>
                 </div>
             </div>
 
@@ -22,31 +23,17 @@
                 <div class="left">
                     <div class="box">
                         <h2>Drag and drop or click to upload</h2>
-                        <button>Select from computer</button>
+                        <label class="button"  for="pic_button" class="btn">Select Image</label>
+                        <input class="btn" type ="file" id ="pic_button" accept ="image/jpeg, image/png, image/jpg" multiple>
                     </div>
                    
                 </div>
-                <div class="right">
+                <div class="right" id="area">
                 
                 </div>
             </div>
 
         </div>
-
-=======
-<html>
-    <head>
-        <link rel="stylesheet" href="styles/style.css">
-        <title>WORKS!!!</title>
-    </head>
-    <body>
-        <div class="outer-most">
-            <div class="left-panel">
-                <div class="panel-text"><div class="text">Collage Maker</div></div>
-                
-            </div>
-        </div>
->>>>>>> 250c3c7 (Some css)
         <script src = "scripts/app.js"></script>
     
 </body>
